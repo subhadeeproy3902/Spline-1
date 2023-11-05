@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 2rem;
+  background: rgba(117, 117, 117, 0);
+  backdrop-filter: blur(10px);
+  z-index: 3;
+}
+header h3 {
+  font-size: 1.3rem;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  padding: 1rem;
+  user-select: none;
+}
+a {
+  text-decoration: none;
+  color: azure;
+  cursor: cell;
+}
+a:hover {
+  text-shadow: 0 0 8px whitesmoke;
+}
